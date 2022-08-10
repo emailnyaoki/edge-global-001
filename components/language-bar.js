@@ -10,6 +10,11 @@ export default function LanguageBar() {
           Italian
         </a>
       </Link>
+      <Link href={currentPath} locale="id">
+        <a className="underline hover:text-success duration-200 transition-colors p-1">
+          Italian
+        </a>
+      </Link>
       <Link href={currentPath} locale="en">
         <a className="underline hover:text-success duration-200 transition-colors p-1">
           English
